@@ -3,14 +3,7 @@
 # STRUCTURAL MODEL #
 ####################
 
-from besser.BUML.metamodel.structural import (
-    Class, Property, Method, Parameter,
-    BinaryAssociation, Generalization, DomainModel,
-    Enumeration, EnumerationLiteral, Multiplicity,
-    StringType, IntegerType, FloatType, BooleanType,
-    TimeType, DateType, DateTimeType, TimeDeltaType,
-    AnyType, Constraint, AssociationClass, Metadata, MethodImplementationType
-)
+from besser.BUML.metamodel.structural import (Class, Property, BinaryAssociation, DomainModel, Multiplicity, StringType, IntegerType, Constraint)
 
 # Classes
 Wallet = Class(name="Wallet")

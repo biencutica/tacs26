@@ -24,7 +24,7 @@ def r1_payment_to_system(payment, target):
 
 
 def r2_piece_to_variable(piece, target, trace):
-    # subset-sum ex: one bit per item (1 = chosen); Karp (1972)
+    # subset-sum ex: one bit per item (1 = chosen)
     # named after the piece object, not its label: BESSER builds link names from
     # the "name" attribute, and labels such as "2 euro cent coin" contain spaces
     var = new(S.IntegerVariable, f"var_{piece.name_}", name=piece.name_, bitWidth=1)
