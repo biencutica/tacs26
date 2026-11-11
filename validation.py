@@ -1,5 +1,3 @@
-"""Classical baseline and exhaustive checks of the oracle on basis inputs."""
-
 import itertools
 import math
 
