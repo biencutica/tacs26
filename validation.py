@@ -4,7 +4,7 @@ import math
 from besser.BUML.metamodel.quantum import ControlState
 
 from transformations.model_io import attr, many, objects_of, one
-from transformations.t2_solution2quantum import Layout, build_oracle, expression, holds, is_atom, operator, q3_atom
+from transformations.t2_solution_quantum import Layout, build_oracle, expression, holds, is_atom, operator, q3_atom
 
 
 def baseline(problem_model):

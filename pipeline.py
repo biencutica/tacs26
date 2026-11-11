@@ -13,7 +13,7 @@ import sys
 
 from besser.generators.qiskit import QiskitGenerator
 
-from transformations import t1_problem2solution as t1, t2_solution2quantum as t2
+from transformations import t1_problem_solution as t1, t2_solution_quantum as t2
 from transformations.model_io import attr, load, many, objects_of, one
 from validation import baseline, check_arithmetic, check_oracle, success_theory
 
